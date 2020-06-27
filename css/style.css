@@ -1,0 +1,37 @@
+body {
+  background-color: #DAF7F6;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  line-height: 16px;
+}
+
+header {
+  background-color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+header img {
+  margin-right: 15px;
+}
+
+main {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+h1,
+h2,
+h3 {
+  color: #F16059;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  padding: 50px 0;
+}
