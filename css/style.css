@@ -38,6 +38,16 @@ h1 {
 
 h2 {
   font-size: 24px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  border-bottom: 2px solid #3B3B3B;
+  border-top: 2px solid #3B3B3B;
+}
+
+ul {
+  list-style-type: square;
 }
 
 .card {
@@ -76,7 +86,42 @@ h2 {
 }
 
 .time {
-  border: 1px solid #3B3B3B;
+  border: 2px solid #3B3B3B;
   margin-bottom: 20px;
-  overflow: visible;
+  overflow: auto;
+  text-transform: uppercase;
+}
+
+.prep,
+.cook,
+.total {
+  box-sizing: border-box;
+  float: left;
+  padding: 10px 0 10px 6px;
+  width: 33.3333%;
+}
+
+.time strong {
+  font-family: 'Montserrat';
+}
+
+.time img {
+  float: left;
+  height: auto;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 15px;
+}
+
+.time-details {
+  display: inline;
+}
+
+.time .cook {
+  border-left: 2px #3B3B3B solid;
+  border-right: 2px #3B3B3B solid;
+}
+
+.description {
+  clear: both;
 }
